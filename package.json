@@ -1,5 +1,5 @@
 {
-  "homepage": "https://omarojeda95.github.io",
+  "homepage": "http://omarojeda95.github.io",
   "name": "omarojeda95",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
