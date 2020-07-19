@@ -1,121 +1,84 @@
 import React from "react";
 const About = () => {
   return (
-    <section className="about-section">
-      <div
-        className="circle-layer"
-        style={{ backgroundImage: "url(assets/images/icons/icon-1.png)" }}
-      ></div>
-      <div
-        className="dotted-layer"
-        style={{
-          backgroundImage: "url(assets/images/icons/dotted-pattern.png)",
-        }}
-      ></div>
-      <div className="auto-container">
-        <div className="inner-container">
-          <div className="sec-title">
-            <div className="title">Sobre mi</div>
-            <div className="separate"></div>
-          </div>
-          <div className="row clearfix">
-            <div className="column col-lg-6 col-md-12 col-sm-12">
-              <p>
-                Soy un un programado de 25 años con experiencia de 4 años
-                officia deserunt mollit any laboruys. Sed perspiciatis unde
-                omnis iste natus error sit voluptatem accusantium dolor que
-                totams rendy aperiam eaque laudantium sed ipsum dolor sit amet
-                consectetur.
-              </p>
-              <p>
-                Eiusmod temp incididunt laborey magna aliqua enimas minim veniam
-                quis sit voluptatem.
-              </p>
+    <section id="about" className="yb-section">
+      <div className="yb-my-profile">
+        <div className="uk-container">
+          <div className="uk-grid-collapse uk-child-width-expand@m" data-uk-grid>
+            <div>
+              <div className="yb-my-profile-img uk-background-cover uk-background-norepeat uk-background-top-center" data-src="src/img/profile.jpg" data-uk-img data-uk-lightbox>
+                <a href="https://www.youtube.com/watch?v=uQBL7pSAXR8" className="yb-my-intro">
+                  <span data-uk-icon="icon: play; ratio: 2"></span>
+                  <span className="yb-my-intro-text">Introduction</span>
+                </a>
+              </div>
             </div>
-            <div className="column col-lg-6 col-md-12 col-sm-12">
-              <p>
-                Soy un un programado de 25 años con experiencia de 4 años quae
-                ab illo inventore veritatis quas chitecto beatae vitae dicta
-                sunt explicabo.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore.
-              </p>
-              <a href="#" className="read-more">
-                Read More <span className="arrow flaticon-arrow"></span>
-              </a>
+            <div>
+              <div className="yb-my-profile-desc">
+                <div className="yb-section-point-wrapper">
+                  <div className="yb-section-point right">
+                    <sup>02</sup>
+                    <span>Sobre mí</span>
+                  </div>
+                </div>
+                <div className="yb-my-profile-desc-top">
+                  <h2 className="yb-section-title">Hola a todos!</h2>
+                  <p>
+                    Soy un programador que estudió Ingenieria de Computación y Sistemas
+                    en la Universidad de San Martin de Porres. Llevé cursos de desarrollo
+                    en Sistema UNI comenzando con el lenguaje de programación Visual Basic
+                    de forma básica, luego en el mismo instituto llevé los cursos de Java básico,
+                    Java orientado a Escritorio y Java orientado a Web.
+                    Llevé cursos en línea para aprender CSS, JavaScrip, PHP, Angular, React y Android.
+
+                  </p>
+                </div>
+                <div className="yb-my-profile-desc-bottom yb-bg-soft">
+                  <ul className="yb-my-profile-desc-info uk-list">
+                    <li>
+                      <span>Nacimiento</span> : 15/08/1995
+                    </li>
+                    <li>
+                      <span>Celular</span> : 978-994-510
+                    </li>
+                    <li>
+                      <span>Correo</span> : omarsilva.ojeda@gmail.com
+                    </li>
+                    <li>
+                      <span>Dirección</span> : Av. Central 72, VES
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="counter-boxed">
-            <div className="fact-counter">
-              <div className="row clearfix">
-                <div className="column counter-column col-lg-4 col-md-6 col-sm-12">
-                  <div
-                    className="inner wow fadeInLeft"
-                    data-wow-delay="300ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <div className="content">
-                      <div className="icon flaticon-mouse"></div>
-                      <div className="count-outer count-box alternate">
-                        <span
-                          className="count-text"
-                          data-speed="4500"
-                          data-stop="600"
-                        >
-                          0
-                        </span>
-                        +
-                      </div>
-                      <div className="counter-title">Project</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="column counter-column col-lg-4 col-md-6 col-sm-12">
-                  <div
-                    className="inner wow fadeInLeft"
-                    data-wow-delay="600ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <div className="content">
-                      <div className="icon flaticon-user-4"></div>
-                      <div className="count-outer count-box">
-                        <span
-                          className="count-text"
-                          data-speed="3000"
-                          data-stop="150"
-                        >
-                          0
-                        </span>
-                        +
-                      </div>
-                      <div className="counter-title">Client</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="column counter-column col-lg-4 col-md-6 col-sm-12">
-                  <div
-                    className="inner wow fadeInLeft"
-                    data-wow-delay="600ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <div className="content">
-                      <div className="icon flaticon-imac"></div>
-                      <div className="count-outer count-box">
-                        <span
-                          className="count-text"
-                          data-speed="2000"
-                          data-stop="80"
-                        >
-                          0
-                        </span>
-                        +
-                      </div>
-                      <div className="counter-title">Award</div>
-                    </div>
-                  </div>
-                </div>
+        </div>
+      </div>
+      <div className="yb-border-top yb-border-bottom ">
+        <div className="uk-container">
+          <div data-uk-grid className="yb-box-services uk-child-width-1-4@l uk-child-width-1-2 uk-text-center uk-grid-divider">
+            <div>
+              <div className="yb-box-service">
+                <span className="uk-icon" data-uk-icon="icon: laptop; ratio: 1.5"></span>
+                <h5>Web Developer</h5>
+              </div>
+            </div>
+            <div>
+              <div className="yb-box-service">
+                <span className="uk-icon" data-uk-icon="icon: paint-bucket; ratio: 1.5"></span>
+                <h5>Web Designer</h5>
+              </div>
+            </div>
+            <div>
+              <div className="yb-box-service">
+                <span className="uk-icon" data-uk-icon="icon: world; ratio: 1.5"></span>
+                <h5>Web Marketer</h5>
+              </div>
+            </div>
+            <div>
+              <div className="yb-box-service">
+                <span className="uk-icon" data-uk-icon="icon: settings; ratio: 1.5"></span>
+                <h5>Web Tester</h5>
               </div>
             </div>
           </div>

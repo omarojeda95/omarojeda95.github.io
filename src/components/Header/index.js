@@ -1,119 +1,91 @@
 import React from "react";
 
 const Navbar = () => {
-  const appNav = (
-    <header className="main-header header-style-one">
-      <div className="header-upper">
-        <div className="auto-container">
-          <div className="inner-container clearfix">
-            <div className="pull-left logo-box">
-              <div className="logo">
-                <a href="index.html">
-                  <img src="assets/images/logo.png" alt="" title="" />
-                </a>
-              </div>
-            </div>
-            <div className="nav-outer clearfix">
-              <div className="mobile-nav-toggler">
-                <span className="icon flaticon-menu"></span>
-              </div>
-              <nav className="main-menu navbar-expand-md">
-                <div className="navbar-header">
-                  <button
-                    className="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                  >
-                    <span className="icon-bar"></span>
-                    <span className="icon-bar"></span>
-                    <span className="icon-bar"></span>
-                  </button>
-                </div>
+	const appNav = (
+		<header className="yb-main-header" id="main-header">
+			<div className="yb-full-height " id="home">
+				<section className="yb-profile-desc">
+					<div className="yb-section-point-wrapper" data-uk-parallax="opacity: 1, 0;">
+						<div className="uk-container">
+							<div className="yb-section-point">
+								<sup>01</sup>
+								<span>bienvenido</span>
+							</div>
+						</div>
+					</div>
+					<div className="yb-graphics">
+						<div className="yb-graphic-1" data-uk-parallax="blur: 0,30;"></div>
+						<div className="yb-graphic-2" data-uk-parallax="blur: 0,30;"></div>
+					</div>
+					<div className="uk-container uk-text-center yb-profile-desc-wrap uk-position-relative">
+						<img src="src/img/x1.png" alt="" width="60" />
+						<h1 className="uk-text-bold yb-gradient-text"><span>Omar</span> <span>Ojeda</span></h1>
+						<div className="uk-text-bold yb-myjob">
+							Soy <span id="typed" className="typed"></span>
+						</div>
+					</div>
+				</section>
+			</div>
+			<nav className="yb-main-menu " id="main-menu">
+				<div className="uk-container" data-uk-navbar>
+					<div className="uk-navbar-left">
+						<a className="yb-logo uk-navbar-item uk-logo" href="dark-index.html"><span>OmarOjeda</span></a>
+					</div>
+					<div className="uk-navbar-right uk-hidden@m">
+						<a className="uk-navbar-toggle" href="#" id="btn-menu-toggle">
+							<span data-uk-navbar-toggle-icon className="yb-icon-menu"></span>
+							<span data-uk-icon="close" className="yb-icon-close"></span>
+						</a>
+					</div>
+					<div className="yb-menu-toggle-wrapper" id="menucollapse">
+						<div className="uk-navbar-center">
+							<ul className="uk-navbar-nav" data-uk-scrollspy-nav="closest: li; scroll: false; offset: 79 ">
+								<li>
+									<a className="yb-inner-link" href="#home"> Inicio </a>
+								</li>
+								<li>
+									<a className="yb-inner-link" href="#about"> Sobre mí</a>
+								</li>
+								<li>
+									<a className="yb-inner-link" href="#resume"> Resume </a>
+								</li>
+								<li>
+									<a className="yb-inner-link" href="#portfolio"> Portafolio </a>
+								</li>
+								<li>
+									<a className="yb-inner-link" href="#blog"> Blog </a>
+								</li>
+								<li>
+									<a className="yb-inner-link" href="#contact"> Contacto </a>
+								</li>
+							</ul>
+						</div>
+						<div className="uk-navbar-right">
+							<ul className="uk-navbar-nav yb-social-icons">
+								<li>
+									<a href="fb.com/omarojeda95" target="_blank">
+										<span className="uk-icon " data-uk-icon="icon: facebook"></span>
+									</a>
+								</li>
+								<li>
+									<a href="instagram.com/omarojeda95" target="_blank">
+										<span className="uk-icon" data-uk-icon="icon: instagram"></span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span className="uk-icon" data-uk-icon="icon: twitter"></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+	);
 
-                <div
-                  className="navbar-collapse collapse clearfix"
-                  id="navbarSupportedContent"
-                >
-                  <ul className="navigation clearfix">
-                    <li>
-                      <a href="blog.html">Inicio</a>
-                    </li>
-                    <li>
-                      <a href="blog.html">Sobre mi</a>
-                    </li>
-                    <li>
-                      <a href="blog-classic.html">Blog Classic</a>
-                    </li>
-                    <li>
-                      <a href="blog-single.html">Blog Single</a>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact us</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-              <div className="outer-box clearfix">
-                <div className="btn-box">
-                  <a href="tel:+51978994510" className="contact-btn theme-btn">
-                    <span className="icon flaticon-smartphone"></span>
-                    978-994-510
-                  </a>
-                </div>
-                <div className="menu-toggler nav-toggler hidden-bar-opener">
-                  <span className="icon flaticon-menu"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="sticky-header">
-        <div className="auto-container clearfix">
-          <div className="logo pull-left">
-            <a href="index.html" title="">
-              <img src="assets/images/logo.png" alt="" title="" />
-            </a>
-          </div>
-          <div className="pull-right">
-            <nav className="main-menu"></nav>
-            <div className="outer-box clearfix">
-              <div className="btn-box">
-                <a href="tel:+800-019-4900" className="contact-btn theme-btn">
-                  <span className="icon flaticon-smartphone"></span> + 800 019
-                  4900
-                </a>
-              </div>
-              <div className="menu-toggler nav-toggler hidden-bar-opener">
-                <span className="icon flaticon-menu"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="mobile-menu">
-        <div className="menu-backdrop"></div>
-        <div className="close-btn">
-          <span className="icon flaticon-multiply"></span>
-        </div>
-
-        <nav className="menu-box">
-          <div className="nav-logo">
-            <a href="index.html">
-              <img src="assets/images/logo.png" alt="" title="" />
-            </a>
-          </div>
-          <div className="menu-outer"></div>
-        </nav>
-      </div>
-    </header>
-  );
-
-  return appNav;
+	return appNav;
 };
 
 export default Navbar;

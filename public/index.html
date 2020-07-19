@@ -10,29 +10,23 @@
 
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-  <link href="%PUBLIC_URL%/assets/css/bootstrap.css" rel="stylesheet">
-  <link href="%PUBLIC_URL%/assets/css/style.css" rel="stylesheet">
-  <link href="%PUBLIC_URL%/assets/css/responsive.css" rel="stylesheet">
-  <link href="%PUBLIC_URL%/assets/css/color-switcher-design.css" rel="stylesheet">
-  <link id="theme-color-file" href="%PUBLIC_URL%/assets/color-themes/default-theme.css" rel="stylesheet">
+  <link href="%PUBLIC_URL%/assets/css/uikit-custom.min.css" rel="stylesheet">
+  <link href="%PUBLIC_URL%/assets/css/app.css" rel="stylesheet">
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&amp;family=Work+Sans:wght@200;300;400;500;600;700;800;900&amp;display=swap"
-    rel="stylesheet">
-
-  <link rel="shortcut icon" href="%PUBLIC_URL%/assets/images/favicon.png" type="image/x-icon">
-  <link rel="icon" href="%PUBLIC_URL%/assets/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&amp;display=swap">
 
   <title>Omar Ojeda</title>
 
 </head>
 
-<body>
+<body id="body-app" class="yb-dark-skin uk-light">
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div class="page-wrapper">
-    <div class="preloader"></div>
-    <div id="root"></div>
+  <div id="pageloader" class="yb-pageloader-wrapper">
+    <div class="uk-position-center  uk-text-center">
+      <div data-uk-spinner></div>
+    </div>
   </div>
+  <div id="root"></div>
 </body>
 
 </html>
