@@ -143,8 +143,8 @@ function init_scroll_to($el, speed, offset) {
 }
 
 function init_typed() {
-  var $typed = $("#typed");
-  if ($typed.length) {
+  var typed = $("#typed");
+  if (typed.length) {
     var typed = new Typed("#typed", {
       strings: ["programador", "freelancer"],
       loop: true,
