@@ -31,13 +31,13 @@ const Resume = () => {
                                 <li>
                                     <a href="#skills" className="yb-inner-link" data-offset="120">
                                         <span data-uk-icon="minus"></span>
-                                        Skills
+                                        Habilidades
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#awwwards" className="yb-inner-link" data-offset="120">
                                         <span data-uk-icon="minus"></span>
-                                        Awards
+                                        Capacitaciones
                                     </a>
                                 </li>
                             </ul>
@@ -46,7 +46,7 @@ const Resume = () => {
                     <div className="uk-width-expand@s yb-section-padding-top">
                         <div>
                             <h2 className="yb-section-title uk-heading-line" id="education">
-                                <span>Educacion</span>
+                                <span>Educación</span>
                             </h2>
                             <div className="yb-resume-list">
                                 <ul className="uk-list uk-list-large uk-list-divider">
@@ -76,12 +76,15 @@ const Resume = () => {
                                         <div className="yb-resume-item">
                                             <div className="yb-resume-item-date">
                                                 <div className="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                                                <div className="yb-resume-item-date-text"><span>2018 - Present</span></div>
+                                                <div className="yb-resume-item-date-text"><span>12/2013 - 03/2014</span></div>
                                             </div>
-                                            <h4 className="yb-section-title">Software Developer</h4>
-                                            <strong>River Tech</strong>
+                                            <h4 className="yb-section-title">Asistente HelpDesk</h4>
+                                            <strong>CVR</strong>
                                             <div className="uk-text-small">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
+                                                <p>
+                                                    Encargado de resolver los problemas que surgían en las computadoras de las personas que trabajan en
+                                                    CVR.
+                                                </p>
                                             </div>
                                         </div>
                                     </li>
@@ -89,12 +92,15 @@ const Resume = () => {
                                         <div className="yb-resume-item">
                                             <div className="yb-resume-item-date">
                                                 <div className="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                                                <div className="yb-resume-item-date-text"><span>2016 - 2018</span></div>
+                                                <div className="yb-resume-item-date-text"><span>09/2015 – 03/2017</span></div>
                                             </div>
-                                            <h4 className="yb-section-title">Web Designer</h4>
-                                            <strong>Retail Ocean</strong>
+                                            <h4 className="yb-section-title">Asistente de Sistemas</h4>
+                                            <strong>JE refrigeración S.A.C.</strong>
                                             <div className="uk-text-small">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
+                                                <p>
+                                                    Apoyo en el área de sistemas. Involucrado a la solución de problemas que se ejercían en las
+                                                    computadoras de los ingenieros.
+                                                </p>
                                             </div>
                                         </div>
                                     </li>
@@ -102,12 +108,14 @@ const Resume = () => {
                                         <div className="yb-resume-item">
                                             <div className="yb-resume-item-date">
                                                 <div className="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                                                <div className="yb-resume-item-date-text"><span>2014 - 2016</span></div>
+                                                <div className="yb-resume-item-date-text"><span>08/2017 - 08/2018</span></div>
                                             </div>
-                                            <h4 className="yb-section-title">Web Marketing</h4>
-                                            <strong>Proper Team</strong>
+                                            <h4 className="yb-section-title">Practicante Front End</h4>
+                                            <strong>Universidad de San Martin de Porres</strong>
                                             <div className="uk-text-small">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
+                                                <p>
+                                                    Desarrollar páginas web y actualizar los contenidos de la página principal de la USMP.
+                                                </p>
                                             </div>
                                         </div>
                                     </li>
@@ -115,12 +123,48 @@ const Resume = () => {
                                         <div className="yb-resume-item">
                                             <div className="yb-resume-item-date">
                                                 <div className="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                                                <div className="yb-resume-item-date-text"><span>2013 - 2014</span></div>
+                                                <div className="yb-resume-item-date-text"><span>09/2018 - 01/2019</span></div>
                                             </div>
-                                            <h4 className="yb-section-title">Web Tester</h4>
-                                            <strong>Ota Group</strong>
+                                            <h4 className="yb-section-title">Practicante Back End</h4>
+                                            <strong>CRP Radios</strong>
                                             <div className="uk-text-small">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
+                                                <p>
+                                                    Mejorar un sistema de creación de plataformas para la radio, generación de reportes en
+                                                    dicho sistema.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="yb-resume-item">
+                                            <div className="yb-resume-item-date">
+                                                <div className="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
+                                                <div className="yb-resume-item-date-text"><span>02/2019 – 03/2019</span></div>
+                                            </div>
+                                            <h4 className="yb-section-title">Desarrollador Front End</h4>
+                                            <strong>TechUp</strong>
+                                            <div className="uk-text-small">
+                                                <p>
+                                                    Desarrollar un sistema web en Codeigniter y consumo de servicios en AWS.
+                                                    <br></br>
+                                                    Desarrollar páginas web para negocios.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="yb-resume-item">
+                                            <div className="yb-resume-item-date">
+                                                <div className="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
+                                                <div className="yb-resume-item-date-text"><span>04/2019 – Actualidad</span></div>
+                                            </div>
+                                            <h4 className="yb-section-title">Desarrollador Full Stack</h4>
+                                            <strong>TRANSTOTAL AGENCIA MARITIMA S.A.</strong>
+                                            <div className="uk-text-small">
+                                                <p>
+                                                    Desarrollar sistemas webs para los diferentes giros de negocios, utilizando leguaje de
+                                                    programación PHP y crear procedimientos en SQL Server.
+                                                </p>
                                             </div>
                                         </div>
                                     </li>
@@ -129,11 +173,19 @@ const Resume = () => {
                         </div>
                         <div>
                             <h2 className="yb-section-title  uk-heading-line " id="skills">
-                                <span>Skills</span>
+                                <span>Habilidades</span>
                             </h2>
                             <div className="yb-margin-top-1 yb-margin-bottom-2">
                                 <div className="uk-grid-collapse  uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-text-center" data-uk-grid>
                                     <div className="yb-bg-soft">
+                                        <div className="yb-box-circle">
+                                            <div className="circle-progress " data-value="1">
+                                                <strong>100<i>%</i></strong>
+                                            </div>
+                                            <h5 className="yb-box-circle-title">HTML</h5>
+                                        </div>
+                                    </div>
+                                    <div>
                                         <div className="yb-box-circle">
                                             <div className="circle-progress " data-value="0.9">
                                                 <strong>90<i>%</i></strong>
@@ -141,28 +193,20 @@ const Resume = () => {
                                             <h5 className="yb-box-circle-title">CSS</h5>
                                         </div>
                                     </div>
+                                    <div className="yb-bg-soft">
+                                        <div className="yb-box-circle">
+                                            <div className="circle-progress " data-value="0.8">
+                                                <strong>80<i>%</i></strong>
+                                            </div>
+                                            <h5 className="yb-box-circle-title">JavaScript</h5>
+                                        </div>
+                                    </div>
                                     <div>
                                         <div className="yb-box-circle">
                                             <div className="circle-progress " data-value="0.9">
                                                 <strong>90<i>%</i></strong>
                                             </div>
-                                            <h5 className="yb-box-circle-title">HTML</h5>
-                                        </div>
-                                    </div>
-                                    <div className="yb-bg-soft">
-                                        <div className="yb-box-circle">
-                                            <div className="circle-progress " data-value="1">
-                                                <strong>100<i>%</i></strong>
-                                            </div>
                                             <h5 className="yb-box-circle-title">PHP</h5>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className="yb-box-circle">
-                                            <div className="circle-progress " data-value="0.8">
-                                                <strong>80<i>%</i></strong>
-                                            </div>
-                                            <h5 className="yb-box-circle-title">Flutter</h5>
                                         </div>
                                     </div>
                                     <div>
@@ -170,15 +214,31 @@ const Resume = () => {
                                             <div className="circle-progress " data-value="0.6">
                                                 <strong>60<i>%</i></strong>
                                             </div>
-                                            <h5 className="yb-box-circle-title">ROR</h5>
+                                            <h5 className="yb-box-circle-title">JAVA</h5>
                                         </div>
                                     </div>
                                     <div className="yb-bg-soft">
                                         <div className="yb-box-circle">
-                                            <div className="circle-progress " data-value="0.7">
-                                                <strong>70<i>%</i></strong>
+                                            <div className="circle-progress " data-value="0.5">
+                                                <strong>50<i>%</i></strong>
                                             </div>
-                                            <h5 className="yb-box-circle-title">Elixir</h5>
+                                            <h5 className="yb-box-circle-title">C #</h5>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className="yb-box-circle">
+                                            <div className="circle-progress " data-value="0.9">
+                                                <strong>90<i>%</i></strong>
+                                            </div>
+                                            <h5 className="yb-box-circle-title">SQL Server</h5>
+                                        </div>
+                                    </div>
+                                    <div className="yb-bg-soft">
+                                        <div className="yb-box-circle">
+                                            <div className="circle-progress " data-value="0.8">
+                                                <strong>80<i>%</i></strong>
+                                            </div>
+                                            <h5 className="yb-box-circle-title">MySQL</h5>
                                         </div>
                                     </div>
                                     <div>
@@ -186,26 +246,50 @@ const Resume = () => {
                                             <div className="circle-progress " data-value="0.8">
                                                 <strong>80<i>%</i></strong>
                                             </div>
-                                            <h5 className="yb-box-circle-title">Git</h5>
+                                            <h5 className="yb-box-circle-title">GIT</h5>
                                         </div>
                                     </div>
                                     <div className="yb-bg-soft">
                                         <div className="yb-box-circle">
-                                            <div className="circle-progress " data-value="0.9">
-                                                <strong>90<i>%</i></strong>
+                                            <div className="circle-progress " data-value="0.6">
+                                                <strong>60<i>%</i></strong>
                                             </div>
-                                            <h5 className="yb-box-circle-title">Mysql</h5>
+                                            <h5 className="yb-box-circle-title">Angular</h5>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className="yb-box-circle">
+                                            <div className="circle-progress " data-value="0.7">
+                                                <strong>70<i>%</i></strong>
+                                            </div>
+                                            <h5 className="yb-box-circle-title">React</h5>
+                                        </div>
+                                    </div>
+                                    <div className="yb-bg-soft">
+                                        <div className="yb-box-circle">
+                                            <div className="circle-progress " data-value="0.6">
+                                                <strong>60<i>%</i></strong>
+                                            </div>
+                                            <h5 className="yb-box-circle-title">Android</h5>
+                                        </div>
+                                    </div>
+                                    <div className="yb-bg-soft">
+                                        <div className="yb-box-circle">
+                                            <div className="circle-progress " data-value="0.5">
+                                                <strong>50<i>%</i></strong>
+                                            </div>
+                                            <h5 className="yb-box-circle-title">CCNA</h5>
                                         </div>
                                     </div>
                                 </div>
                                 <div data-uk-grid className="uk-child-width-1-2">
                                     <div>
-                                        <h4 className="yb-section-title">Soft Skills</h4>
+                                        <h4 className="yb-section-title">Habilidades Blandas</h4>
                                         <ul className="uk-list uk-list-large  uk-list-divider">
                                             <li>
                                                 <div className="yb-resume-skill-item">
                                                     <h5>
-                                                        Problem Solving <small className="uk-float-right uk-text-bold uk-visible@s">100%</small>
+                                                    Resolución de problemas <small className="uk-float-right uk-text-bold uk-visible@s">100%</small>
                                                     </h5>
                                                     <progress className="uk-progress" value="100" max="100"></progress>
                                                 </div>
@@ -213,7 +297,7 @@ const Resume = () => {
                                             <li>
                                                 <div className="yb-resume-skill-item">
                                                     <h5>
-                                                        Creativity <small className="uk-float-right uk-text-bold uk-visible@s">90%</small>
+                                                        Creatividad <small className="uk-float-right uk-text-bold uk-visible@s">90%</small>
                                                     </h5>
                                                     <progress className="uk-progress" value="90" max="100"></progress>
                                                 </div>
@@ -221,7 +305,7 @@ const Resume = () => {
                                             <li>
                                                 <div className="yb-resume-skill-item">
                                                     <h5>
-                                                        Time Management <small className="uk-float-right uk-text-bold uk-visible@s">80%</small>
+                                                        Gestión del tiempo <small className="uk-float-right uk-text-bold uk-visible@s">80%</small>
                                                     </h5>
                                                     <progress className="uk-progress" value="80" max="100"></progress>
                                                 </div>
@@ -229,7 +313,7 @@ const Resume = () => {
                                             <li>
                                                 <div className="yb-resume-skill-item">
                                                     <h5>
-                                                        Team Work <small className="uk-float-right uk-text-bold uk-visible@s">90%</small>
+                                                        Trabajo en equipo <small className="uk-float-right uk-text-bold uk-visible@s">90%</small>
                                                     </h5>
                                                     <progress className="uk-progress" value="90" max="100"></progress>
                                                 </div>
@@ -237,30 +321,14 @@ const Resume = () => {
                                         </ul>
                                     </div>
                                     <div>
-                                        <h4 className="yb-section-title">Language </h4>
+                                        <h4 className="yb-section-title">Lenguajes </h4>
                                         <ul className="uk-list uk-list-large uk-list-divider">
                                             <li>
                                                 <div className="yb-resume-skill-item">
                                                     <h5>
-                                                        English <small className="uk-float-right uk-text-bold uk-visible@s">100%</small>
+                                                        Inglés <small className="uk-float-right uk-text-bold uk-visible@s">60%</small>
                                                     </h5>
-                                                    <progress className="uk-progress" value="100" max="100"></progress>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div className="yb-resume-skill-item">
-                                                    <h5>
-                                                        French <small className="uk-float-right uk-text-bold uk-visible@s">70%</small>
-                                                    </h5>
-                                                    <progress className="uk-progress" value="70" max="100"></progress>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div className="yb-resume-skill-item">
-                                                    <h5>
-                                                        Chinese <small className="uk-float-right uk-text-bold uk-visible@s">80%</small>
-                                                    </h5>
-                                                    <progress className="uk-progress" value="80" max="100"></progress>
+                                                    <progress className="uk-progress" value="60" max="100"></progress>
                                                 </div>
                                             </li>
                                         </ul>
@@ -270,7 +338,7 @@ const Resume = () => {
                         </div>
                         <div>
                             <h2 className="yb-section-title  uk-heading-line " id="awwwards">
-                                <span>Awards</span>
+                                <span>Capacitaciones</span>
                             </h2>
                             <div className="yb-resume-list">
                                 <ul className="uk-list uk-list-large uk-list-divider">
@@ -278,39 +346,40 @@ const Resume = () => {
                                         <div className="yb-resume-item">
                                             <div className="yb-resume-item-date">
                                                 <div className="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                                                <div className="yb-resume-item-date-text"><span>2018 - 2019</span></div>
+                                                <div className="yb-resume-item-date-text"><span>2013</span></div>
                                             </div>
-                                            <h4 className="yb-section-title">Top 10 Web Developer</h4>
-                                            <strong>Ota Group</strong>
-                                            <div className="uk-text-small">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
-                                            </div>
+                                            <h4 className="yb-section-title">XVIII Congreso Internacional de Ingeniería y XII Arquiforo Visión 2013</h4>
+                                            <strong>USMP - FIA</strong>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="yb-resume-item">
                                             <div className="yb-resume-item-date">
                                                 <div className="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                                                <div className="yb-resume-item-date-text"><span>2015 - 2016</span></div>
+                                                <div className="yb-resume-item-date-text"><span>2014</span></div>
                                             </div>
-                                            <h4 className="yb-section-title">Top 5 LeaderShip Exellence Winner</h4>
-                                            <strong>Proper Team</strong>
-                                            <div className="uk-text-small">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
-                                            </div>
+                                            <h4 className="yb-section-title">XVIII Congreso Internacional de Ingeniería y XII Arquiforo Visión 2014</h4>
+                                            <strong>USMP - FIA</strong>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="yb-resume-item">
                                             <div className="yb-resume-item-date">
                                                 <div className="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                                                <div className="yb-resume-item-date-text"><span>2012 - 2015</span></div>
+                                                <div className="yb-resume-item-date-text"><span>2015</span></div>
                                             </div>
-                                            <h4 className="yb-section-title">Top 4 Web Tester</h4>
-                                            <strong>Rival Ocean</strong>
-                                            <div className="uk-text-small">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
+                                            <h4 className="yb-section-title">XVIII Congreso Internacional de Ingeniería y XII Arquiforo Visión 2015</h4>
+                                            <strong>USMP - FIA</strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="yb-resume-item">
+                                            <div className="yb-resume-item-date">
+                                                <div className="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
+                                                <div className="yb-resume-item-date-text"><span>2016</span></div>
                                             </div>
+                                            <h4 className="yb-section-title">XVIII Congreso Internacional de Ingeniería y XII Arquiforo Visión 2016</h4>
+                                            <strong>USMP - FIA</strong>
                                         </div>
                                     </li>
                                 </ul>
@@ -324,7 +393,7 @@ const Resume = () => {
                 <div className="uk-container uk-text-center uk-position-relative">
                     <div data-uk-grid className="uk-grid-small  uk-flex-center">
                         <div>
-                            <a href="#" className=" yb-btn uk-button uk-button-primary uk-button-large">Download CV</a>
+                            <a href="" className=" yb-btn uk-button uk-button-primary uk-button-large">Descargar CV</a>
                         </div>
                         <div>
                             <a href="#contact" className="yb-inner-link yb-btn uk-button uk-button-danger  uk-button-large">Hire Me</a>

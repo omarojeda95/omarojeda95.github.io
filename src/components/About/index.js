@@ -6,11 +6,7 @@ const About = () => {
         <div className="uk-container">
           <div className="uk-grid-collapse uk-child-width-expand@m" data-uk-grid>
             <div>
-              <div className="yb-my-profile-img uk-background-cover uk-background-norepeat uk-background-top-center" data-src="src/img/profile.jpg" data-uk-img data-uk-lightbox>
-                <a href="https://www.youtube.com/watch?v=uQBL7pSAXR8" className="yb-my-intro">
-                  <span data-uk-icon="icon: play; ratio: 2"></span>
-                  <span className="yb-my-intro-text">Introduction</span>
-                </a>
+              <div className="yb-my-profile-img uk-background-cover uk-background-norepeat uk-background-top-center" data-src="assets/img/profile.jpg" data-uk-img data-uk-lightbox style={{backgroundImage: `url(assets/img/profile.jpg)`}}>
               </div>
             </div>
             <div>
@@ -29,8 +25,8 @@ const About = () => {
                     en Sistema UNI comenzando con el lenguaje de programación Visual Basic
                     de forma básica, luego en el mismo instituto llevé los cursos de Java básico,
                     Java orientado a Escritorio y Java orientado a Web.
+                    <br></br>
                     Llevé cursos en línea para aprender CSS, JavaScrip, PHP, Angular, React y Android.
-
                   </p>
                 </div>
                 <div className="yb-my-profile-desc-bottom yb-bg-soft">

@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./components/Header/index";
 import About from "./components/About/index";
 import Resume from "./components/Resume/index";
+import Contacto from "./components/Contacto/index";
+import Portofolio from "./components/Portofolio";
 
 function ComponentScripts() {
   let scripts = [
@@ -25,6 +27,8 @@ function App() {
       <main className="yb-main-content">
         <About />
         <Resume />
+        <Portofolio />
+        <Contacto />
       </main>
 
     </>
