@@ -6,7 +6,7 @@ const About = () => {
         <div className="uk-container">
           <div className="uk-grid-collapse uk-child-width-expand@m" data-uk-grid>
             <div>
-              <div className="yb-my-profile-img uk-background-cover uk-background-norepeat uk-background-top-center" data-src="assets/img/profile.jpg" data-uk-img data-uk-lightbox style={{backgroundImage: `url(assets/img/profile.jpg)`}}>
+              <div className="yb-my-profile-img uk-background-cover uk-background-norepeat uk-background-top-center" data-src="assets/img/profile.jpg" data-uk-img data-uk-lightbox style={{ backgroundImage: `url(assets/img/profile.jpg)` }}>
               </div>
             </div>
             <div>

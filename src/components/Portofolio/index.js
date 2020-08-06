@@ -47,7 +47,10 @@ const Portofolio = () => {
                                         <div className="yb-work-item uk-transition-toggle">
                                             <div className="yb-work-item-img-wrap">
                                                 <div className="yb-work-item-img">
-                                                    <img src={`../assets/img/work/jerefrigeracion.png`} width="383" height="574" data-src={`../assets/img/work/jerefrigeracion.png`} className="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                                                    <img src={`../assets/img/work/01.jpg`}
+                                                        width="383" height="574"
+                                                        className="uk-transition-scale-up uk-transition-opaque" alt=""
+                                                        data-uk-img />
                                                 </div>
                                                 <div className="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
                                                     <div>
@@ -136,7 +139,7 @@ const Portofolio = () => {
                                     </div>
                                     <div>
                                         <div className="yb-client-item">
-                                            <img src="assets/img/empty.png" width="300" height="300" data-src="src/img/client/02.png" alt="" className="uk-border-rounded" data-uk-img />
+                                            <img src="testing" width="300" height="300" data-src="src/img/client/02.png" alt="" className="uk-border-rounded" data-uk-img />
                                         </div>
                                     </div>
                                     <div>
