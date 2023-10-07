@@ -20,11 +20,11 @@ const About = () => {
                 <div className="yb-my-profile-desc-top">
                   <h2 className="yb-section-title">Hola a todos!</h2>
                   <p>
-                    Soy un programador que estudió Ingenieria de Computación y Sistemas
-                    en la Universidad de San Martin de Porres. Llevé cursos de desarrollo
-                    en Sistema UNI comenzando con el lenguaje de programación Visual Basic
-                    de forma básica, luego en el mismo instituto llevé los cursos de Java básico,
-                    Java orientado a Escritorio y Java orientado a Web.
+                    Analista programador con 05 años de experiencia en diseño web y conocimiento en lenguajes de
+                    programación, base de datos, servidores, API’s y Sistemas de Control de Versiones. He
+                    conseguido implementar desarrollos tanto nacional como internacional. Actualmente busco ampliar
+                    mi experiencia en la implementación web profesional, en un entorno que requiere habilidades
+                    independientes para la resolución de problemas y soluciones a corto plazo con el cliente.
                     <br></br>
                     Llevé cursos en línea para aprender CSS, JavaScrip, PHP, Angular, React y Android.
                   </p>
@@ -35,10 +35,10 @@ const About = () => {
                       <span>Nacimiento</span> : 15/08/1995
                     </li>
                     <li>
-                      <span>Celular</span> : 978-994-510
+                      <span>Celular</span> : <a href="https://wa.me/+51978994510" target="_blank">978-994-510</a>
                     </li>
                     <li>
-                      <span>Correo</span> : omarsilva.ojeda@gmail.com
+                      <span>Correo</span> : <a href="mailto:omarsilva.ojeda@gmail.com" target="_blank">omarsilva.ojeda@gmail.com</a>
                     </li>
                     <li>
                       <span>Dirección</span> : Av. Central 72, VES
